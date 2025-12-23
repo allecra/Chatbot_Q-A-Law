@@ -3,6 +3,7 @@ import requests
 
 # --- CẤU HÌNH THÔNG TIN ---
 # Sử dụng biến môi trường để bảo mật (khuyến nghị cho production)
+# Trên Streamlit Cloud: Settings > Secrets
 # Trên Render: Settings > Environment Variables
 import os
 
