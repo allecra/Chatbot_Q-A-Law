@@ -8,7 +8,7 @@ import requests
 import os
 
 LANGFLOW_TOKEN = os.getenv("LANGFLOW_TOKEN", "sk-xfhoXgssl89tL0EjCEQyK8S2MXkv6SfM_tYgqOhVjgg")
-API_URL = os.getenv("API_URL", "https://3e16b6762593.ngrok-free.app/api/v1/run/cf9aed3c-a624-4235-8f0a-234970a9afe2")
+API_URL = os.getenv("API_URL", "https://176d36e29d5e.ngrok-free.app/api/v1/run/cf9aed3c-a624-4235-8f0a-234970a9afe2")
 # Timeout cho API request (giây) - tăng lên để đợi RAG xử lý lâu hơn
 API_TIMEOUT = int(os.getenv("API_TIMEOUT", "120"))  # Mặc định 120 giây (2 phút)
 
