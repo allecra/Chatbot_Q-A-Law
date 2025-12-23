@@ -1,0 +1,13 @@
+# File cấu hình Render (tùy chọn - có thể dùng UI thay thế)
+services:
+  - type: web
+    name: tro-ly-luat
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: LANGFLOW_TOKEN
+        sync: false  # Set manually trên Render dashboard
+      - key: API_URL
+        sync: false  # Set manually trên Render dashboard
+
